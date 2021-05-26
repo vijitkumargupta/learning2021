@@ -20,12 +20,12 @@ val password = spark.table("default.credentials_1_csv").select("password").first
 
 //Snowflake Connection String 
 val options = Map(
-  "sfUrl" -> "hxa65217.snowflakecomputing.com",
+  "sfUrl" -> "xxxxx.snowflakecomputing.com",
   "sfUser" -> user.getString(0),
   "sfPassword" -> password.getString(0),
-  "sfDatabase" -> "USER_VIJIT",
+  "sfDatabase" -> "XXXXX",
   "sfSchema" -> "LEARNING",
-  "sfWarehouse" -> "INTERVIEW_WH"
+  "sfWarehouse" -> "XXXXXX"
 )
 
 //Saving Report in Snowflake
@@ -64,12 +64,12 @@ val password = spark.table("default.credentials_1_csv").select("password").first
 
 //Snowflake Connection String 
 val options = Map(
-  "sfUrl" -> "hxa65217.snowflakecomputing.com",
+  "sfUrl" -> "xxxxx.snowflakecomputing.com",
   "sfUser" -> user.getString(0),
   "sfPassword" -> password.getString(0),
-  "sfDatabase" -> "USER_VIJIT",
+  "sfDatabase" -> "XXXXX",
   "sfSchema" -> "LEARNING",
-  "sfWarehouse" -> "INTERVIEW_WH"
+  "sfWarehouse" -> "XXXXXX"
 )
 
 //Saving Report in Snowflake
@@ -102,12 +102,12 @@ val password = spark.table("default.credentials_1_csv").select("password").first
 
 //Snowflake Connection String 
 val options = Map(
-  "sfUrl" -> "hxa65217.snowflakecomputing.com",
+  "sfUrl" -> "xxxxx.snowflakecomputing.com",
   "sfUser" -> user.getString(0),
   "sfPassword" -> password.getString(0),
-  "sfDatabase" -> "USER_VIJIT",
+  "sfDatabase" -> "xxxxx",
   "sfSchema" -> "LEARNING",
-  "sfWarehouse" -> "INTERVIEW_WH"
+  "sfWarehouse" -> "XXXXXX"
 )
 
 //Saving Report in Snowflake
@@ -143,12 +143,12 @@ val password = spark.table("default.credentials_1_csv").select("password").first
 
 //Snowflake Connection String 
 val options = Map(
-  "sfUrl" -> "hxa65217.snowflakecomputing.com",
+  "sfUrl" -> "xxxxxx.snowflakecomputing.com",
   "sfUser" -> user.getString(0),
   "sfPassword" -> password.getString(0),
-  "sfDatabase" -> "USER_VIJIT",
+  "sfDatabase" -> "xxxxxx",
   "sfSchema" -> "LEARNING",
-  "sfWarehouse" -> "INTERVIEW_WH"
+  "sfWarehouse" -> "xxxxxx"
 )
 
 //Saving Report in Snowflake
@@ -179,12 +179,12 @@ val password = spark.table("default.credentials_1_csv").select("password").first
 
 //Snowflake Connection String 
 val options = Map(
-  "sfUrl" -> "hxa65217.snowflakecomputing.com",
+  "sfUrl" -> "xxxxx.snowflakecomputing.com",
   "sfUser" -> user.getString(0),
   "sfPassword" -> password.getString(0),
-  "sfDatabase" -> "USER_VIJIT",
+  "sfDatabase" -> "xxxxx",
   "sfSchema" -> "LEARNING",
-  "sfWarehouse" -> "INTERVIEW_WH"
+  "sfWarehouse" -> "xxxxxx"
 )
 
 //Saving Report in Snowflake
@@ -213,12 +213,12 @@ val password = spark.table("default.credentials_1_csv").select("password").first
 
 //Snowflake Connection String 
 val options = Map(
-  "sfUrl" -> "hxa65217.snowflakecomputing.com",
+  "sfUrl" -> "xxxxx.snowflakecomputing.com",
   "sfUser" -> user.getString(0),
   "sfPassword" -> password.getString(0),
-  "sfDatabase" -> "USER_VIJIT",
+  "sfDatabase" -> "xxxxx",
   "sfSchema" -> "LEARNING",
-  "sfWarehouse" -> "INTERVIEW_WH"
+  "sfWarehouse" -> "xxxxx"
 )
 
 //Saving Report in Snowflake
