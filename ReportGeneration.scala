@@ -3,12 +3,12 @@ val user = spark.table("default.credentials_1_csv").select("user_name").first
 val password = spark.table("default.credentials_1_csv").select("password").first
 
 val options = Map(
-  "sfUrl" -> "hxa65217.snowflakecomputing.com",
+  "sfUrl" -> "xxxxx.snowflakecomputing.com",
   "sfUser" -> user.getString(0),
   "sfPassword" -> password.getString(0),
-  "sfDatabase" -> "USER_VIJIT",
+  "sfDatabase" -> "XXXXX",
   "sfSchema" -> "LEARNING",
-  "sfWarehouse" -> "INTERVIEW_WH"
+  "sfWarehouse" -> "XXXX"
 )
 
 //Total number of flights by airline and airport on a monthly basis
@@ -22,12 +22,12 @@ val user = spark.table("default.credentials_1_csv").select("user_name").first
 val password = spark.table("default.credentials_1_csv").select("password").first
 
 val options = Map(
-  "sfUrl" -> "hxa65217.snowflakecomputing.com",
+  "sfUrl" -> "xxxxx.snowflakecomputing.com",
   "sfUser" -> user.getString(0),
   "sfPassword" -> password.getString(0),
-  "sfDatabase" -> "USER_VIJIT",
+  "sfDatabase" -> "xxxxx",
   "sfSchema" -> "LEARNING",
-  "sfWarehouse" -> "INTERVIEW_WH"
+  "sfWarehouse" -> "xxxxxx"
 )
 
 //On time percentage of each airline for the year 2015
@@ -41,12 +41,12 @@ val user = spark.table("default.credentials_1_csv").select("user_name").first
 val password = spark.table("default.credentials_1_csv").select("password").first
 
 val options = Map(
-  "sfUrl" -> "hxa65217.snowflakecomputing.com",
+  "sfUrl" -> "xxxxx.snowflakecomputing.com",
   "sfUser" -> user.getString(0),
   "sfPassword" -> password.getString(0),
-  "sfDatabase" -> "USER_VIJIT",
+  "sfDatabase" -> "xxxxx",
   "sfSchema" -> "LEARNING",
-  "sfWarehouse" -> "INTERVIEW_WH"
+  "sfWarehouse" -> "xxxxx"
 )
 
 //Airlines with the largest number of delays
@@ -60,12 +60,12 @@ val user = spark.table("default.credentials_1_csv").select("user_name").first
 val password = spark.table("default.credentials_1_csv").select("password").first
 
 val options = Map(
-  "sfUrl" -> "hxa65217.snowflakecomputing.com",
+  "sfUrl" -> "xxxxx.snowflakecomputing.com",
   "sfUser" -> user.getString(0),
   "sfPassword" -> password.getString(0),
-  "sfDatabase" -> "USER_VIJIT",
+  "sfDatabase" -> "xxxxx",
   "sfSchema" -> "LEARNING",
-  "sfWarehouse" -> "INTERVIEW_WH"
+  "sfWarehouse" -> "xxxxx"
 )
 
 //Cancellation reasons by airport
@@ -79,12 +79,12 @@ val user = spark.table("default.credentials_1_csv").select("user_name").first
 val password = spark.table("default.credentials_1_csv").select("password").first
 
 val options = Map(
-  "sfUrl" -> "hxa65217.snowflakecomputing.com",
+  "sfUrl" -> "xxxxx.snowflakecomputing.com",
   "sfUser" -> user.getString(0),
   "sfPassword" -> password.getString(0),
-  "sfDatabase" -> "USER_VIJIT",
+  "sfDatabase" -> "xxxxx",
   "sfSchema" -> "LEARNING",
-  "sfWarehouse" -> "INTERVIEW_WH"
+  "sfWarehouse" -> "xxxxx"
 )
 
 //Delay reasons by airport
@@ -98,12 +98,12 @@ val user = spark.table("default.credentials_1_csv").select("user_name").first
 val password = spark.table("default.credentials_1_csv").select("password").first
 
 val options = Map(
-  "sfUrl" -> "hxa65217.snowflakecomputing.com",
+  "sfUrl" -> "xxxxx.snowflakecomputing.com",
   "sfUser" -> user.getString(0),
   "sfPassword" -> password.getString(0),
-  "sfDatabase" -> "USER_VIJIT",
+  "sfDatabase" -> "xxxx",
   "sfSchema" -> "LEARNING",
-  "sfWarehouse" -> "INTERVIEW_WH"
+  "sfWarehouse" -> "xxxxx"
 )
 
 //Airline with the most unique routes
